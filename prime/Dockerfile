@@ -4,4 +4,4 @@ WORKDIR /home
 
 COPY prime.py .
 
-CMD ["python3","/home/prime.py"]
+ENTRYPOINT ["python3","/home/prime.py"]
